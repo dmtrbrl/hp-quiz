@@ -23,6 +23,7 @@ export default {
 
 <style>
 .quiz {
+  width: 100%;
   max-width: 520px;
 }
 
