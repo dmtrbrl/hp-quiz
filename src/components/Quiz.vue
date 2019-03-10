@@ -23,17 +23,27 @@ export default {
 
 <style>
 .quiz {
-  max-width: 500px;
+  max-width: 520px;
+  padding: 0 10px;
 }
+
 .quiz-img {
   display: block;
   width: 100%;
   height: auto;
 }
+
 .quiz-heading {
   margin: 30px 0;
+  font-size: 22px;
   line-height: 1.2;
 }
+@media (min-width: 520px) {
+  .quiz-heading {
+    font-size: 30px;
+  }
+}
+
 .quiz-button {
   display: inline-block;
   padding: 10px 30px;
