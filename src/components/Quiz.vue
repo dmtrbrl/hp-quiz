@@ -24,7 +24,7 @@ export default {
 <style>
 .quiz {
   width: 100%;
-  max-width: 520px;
+  max-width: 550px;
 }
 
 .quiz-img {
@@ -38,9 +38,11 @@ export default {
   font-size: 22px;
   line-height: 1.2;
 }
-@media (min-width: 520px) {
+@media (min-width: 600px) {
   .quiz-heading {
+    margin: -50px 0 30px;
     font-size: 30px;
+    text-shadow: 1px 1px 2px #000;
   }
 }
 
