@@ -23,13 +23,19 @@ export default {
   box-sizing: border-box;
 }
 
+html {
+  height: 100%;
+}
+
 body {
+  height: 100%;
   background: #000;
   color: #999;
 }
 
 #app {
-  height: 100vh;
+  min-height: 100%;
+  padding: 15px;
   display: flex;
   align-items: center;
   justify-content: center;

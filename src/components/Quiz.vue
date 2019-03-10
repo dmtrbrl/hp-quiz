@@ -24,7 +24,6 @@ export default {
 <style>
 .quiz {
   max-width: 520px;
-  padding: 0 10px;
 }
 
 .quiz-img {
