@@ -298,10 +298,7 @@ export default {
   transition: border-color 0.5s, background 0.5s;
   outline: none;
 }
-.quiz-question-button:hover,
-.quiz-question-button:focus {
-  border-color: #eee;
-}
+
 .quiz-question-button.correct {
   border-color: #5ba55b;
   background: #5ba55b;
@@ -313,6 +310,12 @@ export default {
 @media (min-width: 600px) {
   .quiz-question-button {
     font-size: 14px;
+  }
+}
+@media (hover: hover) {
+  .quiz-question-button:hover,
+  .quiz-question-button:focus {
+    border-color: #eee;
   }
 }
 
