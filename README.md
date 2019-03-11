@@ -1,29 +1,19 @@
-# hp-quiz
+# Harry Potter Movies Quiz
 
-## Project setup
-```
+Simple quiz app where you need to guess the movie from the GIF
+
+## Setup
+
+```bash
+# install dependencies
 npm install
-```
 
-### Compiles and hot-reloads for development
-```
+# Compiles and hot-reloads for development
 npm run serve
-```
 
-### Compiles and minifies for production
-```
+# Compiles and minifies for production
 npm run build
-```
 
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
+# Lints and fixes files
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
