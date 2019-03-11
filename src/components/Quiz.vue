@@ -178,7 +178,6 @@ export default {
       this.usersAnswer = answer;
       mutations.addAnswer(answer);
       const nextQuestion = +this.currentQuestion + 1;
-      console.log(nextQuestion, this.questions.length);
 
       setTimeout(() => {
         if (nextQuestion <= this.questions.length) {
