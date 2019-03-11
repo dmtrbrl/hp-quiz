@@ -5,7 +5,7 @@ Simple quiz app where you need to guess the movie from the GIF
 ## Setup
 
 ```bash
-# install dependencies
+# Install dependencies
 npm install
 
 # Compiles and hot-reloads for development
