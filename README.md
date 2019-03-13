@@ -1,6 +1,7 @@
 # Harry Potter Movies Quiz
 
-Simple quiz app where you need to guess the movie from the GIF
+Simple quiz app where you need to guess the movie from the GIF.
+**[Live Demo](https://dmtrbrl.github.io/hp-quiz/)**
 
 ## Setup
 
