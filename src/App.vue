@@ -25,7 +25,7 @@
         <a href="https://giphy.com/" target="_blank">GIPHY</a> for the gifs
       </span>
     </header>
-    <Quiz url="https://api.myjson.com/bins/19efxu"/>
+    <Quiz url="https://api.jsonbin.io/b/5cdd1762dbffad51f8aa85a5"/>
   </div>
 </template>
 
