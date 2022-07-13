@@ -80,14 +80,14 @@ export default {
     questions: () => store.questions,
     currentQuestion: () => store.currentQuestion,
     answers: () => store.answers,
-    correctAnswers: () => {
+    correctAnswers() {
       let count = 0;
       this.questions.forEach((q, i) => {
         if (q.correct == this.answers[i]) count++;
       });
       return count;
     },
-    resultsInfo: () => {
+    resultsInfo() {
       if (this.correctAnswers < 10) {
         return {
           text:
@@ -95,23 +95,20 @@ export default {
           img:
             "https://media0.giphy.com/media/720g7C1jz13wI/giphy.gif?cid=3640f6095c869951776a4a7a5110b5dc"
         };
-      }
-      if (this.correctAnswers < 15) {
+      } else if (this.correctAnswers < 15) {
         return {
           text:
             "Not too shabby! <br>Have a Harry Potter movie marathon and then try again!",
           img:
             "https://media2.giphy.com/media/UeeJAeey9GJjO/giphy.gif?cid=3640f6095c869e703631634241b759c1"
         };
-      }
-      if (this.correctAnswers < 20) {
+      } else if (this.correctAnswers < 20) {
         return {
           text:
             "Very good! <br>Have another go and you'll be getting full marks!",
           img: "https://media.giphy.com/media/TGLLaCKWwxUVq/giphy.gif"
         };
-      }
-      if (this.correctAnswers === 20) {
+      } else {
         return {
           text:
             "TOP MARKS! Nice work! <br>You have some serious wizard wisdom!",
