@@ -80,14 +80,14 @@ export default {
     questions: () => store.questions,
     currentQuestion: () => store.currentQuestion,
     answers: () => store.answers,
-    correctAnswers() {
+    correctAnswers: () => {
       let count = 0;
       this.questions.forEach((q, i) => {
         if (q.correct == this.answers[i]) count++;
       });
       return count;
     },
-    resultsInfo() {
+    resultsInfo: () => {
       if (this.correctAnswers < 10) {
         return {
           text:
